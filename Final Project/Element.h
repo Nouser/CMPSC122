@@ -64,7 +64,7 @@ private:
     // 
     string name;
     
-
+	
     // This is the text that an element contains. If the element has no text this should be the empty 
     // string. The text of an element does not need to be trimmed. It is possible the text of an element 
     // consists of nothing but whitespace.
