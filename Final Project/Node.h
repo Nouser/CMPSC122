@@ -36,10 +36,7 @@ private:
         INodeListener     *listener;
         INodeListenerNode *next;
   
-        INodeListenerNode(INodeListener *initListener, INodeListenerNode *initNext = 0) {
-            listener = initListener;
-            next     = initNext;
-        }
+        INodeListenerNode(INodeListener *initListener, INodeListenerNode *initNext = 0);
     };
 
 
@@ -56,11 +53,7 @@ private:
         string        value;
         AttributeNode *next;
   
-        AttributeNode(string initName, string initValue, AttributeNode *initNext = 0) {
-            name  = initName;
-            value = initValue;
-            next  = initNext;
-        }
+        AttributeNode(string initName, string initValue, AttributeNode *initNext = 0);
     };
 
     // A list of attribute references.

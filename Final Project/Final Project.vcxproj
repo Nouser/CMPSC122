@@ -72,6 +72,12 @@
     <ClInclude Include="NodeMap.h" />
     <ClInclude Include="UnitTestUtils.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\packages\jQuery.2.0.3\Tools\jquery-2.0.3.intellisense.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Node.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
