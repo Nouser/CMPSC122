@@ -39,10 +39,7 @@ private:
         Element     *element;
         ElementNode *next;
   
-        ElementNode(Element* initElement, ElementNode *initNext = 0) {
-            element = initElement;
-            next    = initNext;
-        }
+        ElementNode(Element* initElement, ElementNode *initNext = 0);
     };
 
 

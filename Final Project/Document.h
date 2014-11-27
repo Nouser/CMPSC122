@@ -49,7 +49,7 @@ private:
     class RealElement : public Element {
     public:
 
-        virtual ~RealElement() {}
+        virtual ~RealElement();
 
     };
     
@@ -63,10 +63,7 @@ private:
         RealElement     *element;
         RealElementNode *next;
 
-        RealElementNode(RealElement *initRealElement, RealElementNode* initNext = 0) {
-            element = initRealElement;
-            next    = initNext;
-        }
+        RealElementNode(RealElement *initRealElement, RealElementNode* initNext = 0);
     };
 
 

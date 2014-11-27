@@ -45,11 +45,7 @@ private:
         NodeMapNode *left;
         NodeMapNode *right;
         
-        NodeMapNode(Node *initNode,  NodeMapNode* initLeft = 0, NodeMapNode* initRight = 0) {
-            node  = initNode;
-            left  = initLeft;
-            right = initRight;
-        }
+        NodeMapNode(Node *initNode,  NodeMapNode* initLeft = 0, NodeMapNode* initRight = 0);
     };
 
 
