@@ -23,6 +23,8 @@ Node::Node()
 
 Node::~Node()
 {
+	delete attributesHead;
+	//Notify listeners.
 
 }
 
@@ -39,6 +41,7 @@ void Node::setAttribute(const string &name, const string &value)
 		if(temp->name.compare(name)==0)
 		{
 			temp->value = value;
+			break;
 		}
 	}
 }
